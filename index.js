@@ -1,5 +1,5 @@
 function updateObjectWithKeyAndValue(obj,key,val){
-  Object.assign(newOb = {},obj, obj[key] = val)
-  return newob
-
+ newObj = Object.assign({},obj, {[key] : val})
+ //  object.assign (new obj, obj you are copying, {new key value pair})
+  return newObj
 }
